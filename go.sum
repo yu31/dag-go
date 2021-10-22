@@ -1,14 +1,10 @@
+github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.6.1 h1:hDPOHmpOpP40lSULcqw7IrRb/u7w6RpDC9399XyoNd0=
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
-github.com/yu31/gostructs v0.0.0-20201217022118-6e9ecbe366b6 h1:iPae+TDDrbQoQJKfjyg+GOj53ijYfi5e4AvM2Mgp+wM=
-github.com/yu31/gostructs v0.0.0-20201217022118-6e9ecbe366b6/go.mod h1:2nxYgIcGxEN5nRc3n3pRusl7ys+oEM14uInKe+WtouQ=
-github.com/yu31/gostructs v0.0.0-20201218110551-0dd11959ea8e h1:yCojHJ0qiQfLFIxfkPUaiwqtK7WAPIeQMVkCeZ3R6hI=
-github.com/yu31/gostructs v0.0.0-20201218110551-0dd11959ea8e/go.mod h1:2nxYgIcGxEN5nRc3n3pRusl7ys+oEM14uInKe+WtouQ=
-github.com/yu31/gostructs v0.0.0-20201218122047-867dd7376acf h1:sv+ZfxkPKKMxzYMdbYRB8/USbrGfw0z4puFWM8ckzSA=
-github.com/yu31/gostructs v0.0.0-20201218122047-867dd7376acf/go.mod h1:2nxYgIcGxEN5nRc3n3pRusl7ys+oEM14uInKe+WtouQ=
 github.com/yu31/gostructs v0.0.0-20201218184758-e7602554c972 h1:HncSrbVeqFWE9bjB1Wz/YlKxvGUpa/NMOS2lrFh5b8Y=
 github.com/yu31/gostructs v0.0.0-20201218184758-e7602554c972/go.mod h1:2nxYgIcGxEN5nRc3n3pRusl7ys+oEM14uInKe+WtouQ=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
