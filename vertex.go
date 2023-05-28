@@ -8,7 +8,7 @@ package dag
 import (
 	"fmt"
 
-	"github.com/yu31/gostructs/container"
+	"github.com/yu31/structs-go/container"
 )
 
 // Vertex represents a vertex in DAG.

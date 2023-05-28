@@ -1,2 +1,2 @@
-# dag
-A implementation of Directed Acyclic Graph in GoLang.
+# dag-go
+An implementation of Directed Acyclic Graph in GoLang.

@@ -6,10 +6,10 @@
 package dag
 
 import (
-	"github.com/yu31/gostructs/container"
-	"github.com/yu31/gostructs/queue"
-	"github.com/yu31/gostructs/rb"
-	"github.com/yu31/gostructs/stack"
+	"github.com/yu31/structs-go/container"
+	"github.com/yu31/structs-go/queue"
+	"github.com/yu31/structs-go/rb"
+	"github.com/yu31/structs-go/stack"
 )
 
 // DAG implements data struct of Directed Acyclic Graph.

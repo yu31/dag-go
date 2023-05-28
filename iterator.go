@@ -6,7 +6,7 @@
 package dag
 
 import (
-	"github.com/yu31/gostructs/queue"
+	"github.com/yu31/structs-go/queue"
 )
 
 // Iterator implements an iterator with Topological Sorting(Kahn Algorithm).
