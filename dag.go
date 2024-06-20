@@ -29,9 +29,9 @@ func (g *DAG) Len() int {
 	return g.vertexes.Len()
 }
 
-// Insert inserts and returns an Vertex with given key and value if key doesn't exists.
+// Insert inserts and returns a Vertex with given key and value if key doesn't exist.
 // Or else, returns the existing Vertex for the key if present.
-// The bool result is true if an Vertex was created, false if searched.
+// The bool result is true if a Vertex was created, false if searched.
 func (g *DAG) Insert(k container.Key, v container.Value) (*Vertex, bool) {
 	vex := &Vertex{key: k, value: v}
 	if ele, ok := g.vertexes.Insert(k, vex); !ok {
@@ -76,7 +76,7 @@ func (g *DAG) Search(k container.Key) *Vertex {
 }
 
 // Attach attaches an edge from srcKey to destKey.
-// Returns false if there a ring between srcKey and destKey after attaching.
+// Returns false if their a ring between srcKey and destKey after attaching.
 //
 // And will be crashing in following cases:
 //   - srcKey equal to destKey.
@@ -232,7 +232,7 @@ func (g *DAG) Topological(f func(vex *Vertex) bool) {
 
 	for !q.Empty() {
 		vex := q.Pop().(*Vertex)
-		it := vex.out.Iter(nil, nil)
+		it = vex.out.Iter(nil, nil)
 		for it.Valid() {
 			v1 := it.Next().Value().(*Vertex)
 			inDegrees[v1]--

@@ -23,12 +23,12 @@ func (vex *Vertex) String() string {
 	return fmt.Sprintf("%v", vex.key)
 }
 
-// Returns the key of vertex.
+// Key returns the key of vertex.
 func (vex *Vertex) Key() container.Key {
 	return vex.key
 }
 
-// Returns the value of vertex.
+// Value returns the value of vertex.
 func (vex *Vertex) Value() container.Value {
 	return vex.value
 }

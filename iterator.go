@@ -37,7 +37,7 @@ func newIterator(g *DAG) *Iterator {
 	return it
 }
 
-// Valid represents whether has more vertex in iterator.
+// Valid represents whether it has more vertex in iterator.
 func (it *Iterator) Valid() bool {
 	return !it.queue.Empty()
 }
@@ -75,13 +75,13 @@ func (it *Iterator) Batch() []*Vertex {
 func (it *Iterator) fillQueue(vex *Vertex) {
 	itOut := vex.out.Iter(nil, nil)
 	for itOut.Valid() {
-		vex := itOut.Next().Value().(*Vertex)
+		_vex := itOut.Next().Value().(*Vertex)
 
-		it.inDegrees[vex]--
-		if it.inDegrees[vex] == 0 {
-			delete(it.inDegrees, vex)
+		it.inDegrees[_vex]--
+		if it.inDegrees[_vex] == 0 {
+			delete(it.inDegrees, _vex)
 			// Push the vertex of zero in-degree to queue.
-			it.queue.Push(vex)
+			it.queue.Push(_vex)
 		}
 	}
 }
